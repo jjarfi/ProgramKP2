@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="800.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NavMenu.MenuController">
+   <children>
+      <JFXButton contentDisplay="TOP" layoutX="621.0" layoutY="10.0" prefHeight="76.0" prefWidth="111.0" text="Dashboard" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/akonadi-phone-home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" prefHeight="76.0" prefWidth="116.0" text="Perusahaan" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/document-multiple.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" prefHeight="76.0" prefWidth="99.0" text="Bagian" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/dialog-rows-and-columns.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="126.0" layoutY="10.0" prefHeight="76.0" prefWidth="109.0" text="Klasifikasi" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/snap-nodes-cusp.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="225.0" layoutY="10.0" prefHeight="76.0" prefWidth="99.0" text="Karyawan" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/user-group-new.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="334.0" layoutY="10.0" prefHeight="76.0" prefWidth="99.0" text="Safety" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/amarok_cart_add.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="433.0" layoutY="10.0" prefHeight="76.0" prefWidth="89.0" text="Berkas" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/kr_syncbrowse_on.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="532.0" layoutY="10.0" prefHeight="76.0" prefWidth="89.0" text="Laporan" textFill="#138dff">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/document-print-frame.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="DejaVu Serif Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</HBox>

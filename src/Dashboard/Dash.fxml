@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="532.0" prefWidth="966.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dashboard.DashController">
+   <children>
+      <AnchorPane prefHeight="532.0" prefWidth="966.0">
+         <children>
+            <Pane layoutX="54.0" layoutY="58.0" prefHeight="168.0" prefWidth="254.0" style="-fx-background-color: white; -fx-background-radius: 0.4cm;">
+               <children>
+                  <Pane layoutX="14.0" layoutY="-33.0" prefHeight="70.0" prefWidth="123.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.4cm;">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="71.0" layoutX="33.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icon/blue-clock-icon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Separator layoutX="17.0" layoutY="83.0" prefHeight="0.0" prefWidth="221.0" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+            <Pane layoutX="351.0" layoutY="58.0" prefHeight="168.0" prefWidth="254.0" style="-fx-background-color: white; -fx-background-radius: 0.4cm;">
+               <children>
+                  <Pane layoutX="14.0" layoutY="-33.0" prefHeight="70.0" prefWidth="123.0" style="-fx-background-color: #04ee3a; -fx-background-radius: 0.4cm;">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="71.0" layoutX="33.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icon/blue-heart-icon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Separator layoutX="23.0" layoutY="84.0" prefHeight="0.0" prefWidth="221.0" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+            <Pane layoutX="658.0" layoutY="58.0" prefHeight="168.0" prefWidth="254.0" style="-fx-background-color: white; -fx-background-radius: 0.4cm;">
+               <children>
+                  <Pane layoutX="14.0" layoutY="-33.0" prefHeight="70.0" prefWidth="123.0" style="-fx-background-color: #fc06e7; -fx-background-radius: 0.4cm;">
+                     <children>
+                        <ImageView fitHeight="57.0" fitWidth="71.0" layoutX="34.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Icon/blue-camera-icon.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Separator layoutX="23.0" layoutY="84.0" prefHeight="0.0" prefWidth="221.0" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+            <Pane layoutX="97.0" layoutY="245.0" prefHeight="273.0" prefWidth="371.0" style="-fx-background-color: white; -fx-background-radius: 0.2cm;">
+               <children>
+                  <Separator layoutX="17.0" layoutY="83.0" prefHeight="3.0" prefWidth="330.0" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+            <Pane layoutX="502.0" layoutY="245.0" prefHeight="273.0" prefWidth="371.0" style="-fx-background-color: white; -fx-background-radius: 0.2cm;">
+               <children>
+                  <Separator layoutX="17.0" layoutY="83.0" prefHeight="3.0" prefWidth="330.0" />
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

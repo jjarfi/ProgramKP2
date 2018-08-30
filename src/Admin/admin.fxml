@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="682.0" prefWidth="950.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.AdminController">
+   <children>
+      <AnchorPane fx:id="pan" layoutY="14.0" onMouseDragged="#drag" onMousePressed="#pres" prefHeight="662.0" prefWidth="945.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.4cm;">
+         <children>
+            <AnchorPane layoutY="34.0" prefHeight="529.0" prefWidth="945.0" style="-fx-background-color: white;">
+               <children>
+                  <VBox layoutY="-7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="152.0">
+                     <children>
+                        <JFXButton contentDisplay="TOP" prefHeight="105.0" prefWidth="156.0" text="Dashboard" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="98.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/akonadi-phone-home.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <Separator prefWidth="200.0" />
+                        <JFXButton alignment="BASELINE_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="53.0" prefWidth="152.0" text="Perusahaan" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/document-multiple.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="13.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" layoutX="10.0" layoutY="143.0" prefHeight="53.0" prefWidth="152.0" text="Data Bagian" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/dialog-rows-and-columns.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="13.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" layoutX="10.0" layoutY="196.0" prefHeight="53.0" prefWidth="152.0" text="Klasifikasi" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/snap-nodes-cusp.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="13.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" layoutX="10.0" layoutY="249.0" prefHeight="53.0" prefWidth="152.0" text="Klasifikasi" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/user-group-new.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="13.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" layoutX="10.0" layoutY="302.0" prefHeight="53.0" prefWidth="152.0" text="Data Safety" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/amarok_cart_add.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="13.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" layoutX="10.0" layoutY="355.0" prefHeight="53.0" prefWidth="152.0" text="Data Berkas" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/kr_syncbrowse_on.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="13.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" layoutX="10.0" layoutY="408.0" prefHeight="53.0" prefWidth="152.0" text="Laporan" textFill="#0088ff">
+                           <graphic>
+                              <ImageView fitHeight="43.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Icon/document-print-frame.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="13.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+            <Circle fill="RED" layoutX="922.0" layoutY="18.0" onMouseClicked="#tutup" radius="9.0" stroke="RED" strokeType="INSIDE">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Circle>
+            <Circle fill="LIME" layoutX="896.0" layoutY="18.0" onMousePressed="#sembunyi" radius="9.0" stroke="LIME" strokeType="INSIDE">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Circle>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

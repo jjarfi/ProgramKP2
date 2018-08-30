@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.HyperlinkLabel?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="400.0" prefWidth="492.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <children>
+      <AnchorPane layoutX="59.0" layoutY="22.0" prefHeight="339.0" prefWidth="374.0">
+         <children>
+            <Pane fx:id="pan" onMouseDragged="#drag" onMousePressed="#pres" prefHeight="357.0" prefWidth="374.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.5cm;">
+               <children>
+                  <Pane layoutY="84.0" prefHeight="250.0" prefWidth="374.0" style="-fx-background-color: white;">
+                     <children>
+                        <VBox layoutX="75.0" layoutY="14.0" prefHeight="115.0" prefWidth="224.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+                                 <font>
+                                    <Font name="DejaVu Serif Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <TextField prefHeight="33.0" prefWidth="224.0" />
+                              <Text layoutX="10.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                                 <font>
+                                    <Font name="DejaVu Serif Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <PasswordField prefHeight="35.0" prefWidth="224.0" />
+                           </children>
+                        </VBox>
+                        <JFXCheckBox layoutX="75.0" layoutY="129.0" text="Show Password">
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="14.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <JFXButton buttonType="RAISED" layoutX="63.0" layoutY="187.0" onAction="#kliklogin" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.6cm;" text="Sign In" textFill="WHITE">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="197.0" layoutY="187.0" onAction="#klikregis" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.6cm;" text="Sign Up" textFill="WHITE">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="62.0" fitWidth="35.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Icon/pacemenu.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Circle fill="RED" layoutX="351.0" layoutY="14.0" onMouseClicked="#tutup" radius="9.0" stroke="RED" strokeType="INSIDE">
+                     <effect>
+                        <DropShadow />
+                     </effect></Circle>
+                  <Circle fill="LIME" layoutX="326.0" layoutY="14.0" onMouseClicked="#sembunyi" radius="9.0" stroke="LIME" strokeType="INSIDE">
+                     <effect>
+                        <DropShadow />
+                     </effect></Circle>
+                  <HyperlinkLabel layoutX="128.0" layoutY="335.0" onMouseClicked="#klikforgot" text="Forgot Password ?" />
+                  <Text fill="WHITE" layoutX="153.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login ">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="24.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Text>
+                  <Text fill="WHITE" layoutX="108.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrator">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="24.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Text>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

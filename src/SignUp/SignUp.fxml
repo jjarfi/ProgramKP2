@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignUp.SignUpController">
+   <children>
+      <AnchorPane layoutX="113.0" layoutY="22.0" prefHeight="447.0" prefWidth="374.0">
+         <children>
+            <Pane fx:id="pan" onMouseDragged="#drag" onMousePressed="#pres" prefHeight="433.0" prefWidth="374.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.5cm;">
+               <children>
+                  <Pane layoutY="84.0" prefHeight="329.0" prefWidth="374.0" style="-fx-background-color: white;">
+                     <children>
+                        <VBox layoutX="75.0" layoutY="7.0" prefHeight="251.0" prefWidth="224.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
+                                 <font>
+                                    <Font name="DejaVu Serif Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <TextField prefHeight="33.0" prefWidth="224.0" />
+                              <Text layoutX="10.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+                                 <font>
+                                    <Font name="DejaVu Serif Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <TextField layoutX="10.0" layoutY="29.0" prefHeight="33.0" prefWidth="224.0" />
+                              <Text layoutX="10.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sex">
+                                 <font>
+                                    <Font name="DejaVu Serif Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <HBox prefHeight="23.0" prefWidth="224.0">
+                                 <children>
+                                    <JFXRadioButton text="Male">
+                                       <font>
+                                          <Font name="DejaVu Serif Bold" size="14.0" />
+                                       </font>
+                                    </JFXRadioButton>
+                                    <JFXRadioButton layoutX="10.0" layoutY="10.0" text="Female">
+                                       <font>
+                                          <Font name="DejaVu Serif Bold" size="14.0" />
+                                       </font>
+                                    </JFXRadioButton>
+                                 </children>
+                              </HBox>
+                              <Text layoutX="10.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+                                 <font>
+                                    <Font name="DejaVu Serif Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <TextField layoutX="10.0" layoutY="81.0" prefHeight="33.0" prefWidth="224.0" />
+                              <Text layoutX="10.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                                 <font>
+                                    <Font name="DejaVu Serif Bold" size="16.0" />
+                                 </font>
+                              </Text>
+                              <PasswordField prefHeight="32.0" prefWidth="224.0" />
+                           </children>
+                        </VBox>
+                        <JFXButton buttonType="RAISED" layoutX="61.0" layoutY="273.0" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.6cm;" text="Sign Up" textFill="WHITE">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="198.0" layoutY="273.0" onAction="#klikcancel" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #138dff; -fx-background-radius: 0.6cm;" text="Cancel" textFill="WHITE">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="DejaVu Serif Bold" size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="62.0" fitWidth="40.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Icon/pacemenu.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Circle fill="RED" layoutX="351.0" layoutY="14.0" onMouseClicked="#tutup" radius="9.0" stroke="RED" strokeType="INSIDE">
+                     <effect>
+                        <DropShadow />
+                     </effect></Circle>
+                  <Circle fill="LIME" layoutX="326.0" layoutY="14.0" onMouseClicked="#sembunyi" radius="9.0" stroke="LIME" strokeType="INSIDE">
+                     <effect>
+                        <DropShadow />
+                     </effect></Circle>
+                  <Text fill="WHITE" layoutX="130.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="24.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Text>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
